@@ -1,0 +1,26 @@
+{
+    "name": "PostCSS",
+    "displayName": "pcss",
+    "description": "PostCSS language support",
+    "version": "0.0.1",
+    "publisher": "rcsole",
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "postcss",
+            "aliases": ["PostCSS", "postcss"],
+            "extensions": [".pcss",".postcss"],
+            "configuration": "./postcss.configuration.json"
+        }],
+        "grammars": [{
+            "language": "postcss",
+            "scopeName": "source.postcss",
+            "path": "./syntaxes/postcss.tmLanguage"
+        }]
+    }
+}
