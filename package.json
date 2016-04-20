@@ -2,7 +2,7 @@
   "name": "PostCSS",
   "displayName": "PostCSS syntax",
   "description": "PostCSS language support",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "ricard",
   "engines": {
     "vscode": "^0.10.10"
