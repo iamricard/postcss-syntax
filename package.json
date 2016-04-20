@@ -3,7 +3,7 @@
   "displayName": "PostCSS syntax",
   "description": "PostCSS language support",
   "version": "1.0.0",
-  "publisher": "rcsole",
+  "publisher": "ricard",
   "engines": {
     "vscode": "^0.10.10"
   },
@@ -19,6 +19,7 @@
           "postcss"
         ],
         "extensions": [
+          ".css",
           ".pcss",
           ".postcss"
         ],
