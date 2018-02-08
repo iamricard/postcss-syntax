@@ -1,11 +1,11 @@
 {
-  "name": "PostCSS",
+  "name": "postcss",
   "displayName": "PostCSS syntax",
   "description": "PostCSS language support",
   "version": "1.0.1",
   "publisher": "ricard",
   "engines": {
-    "vscode": "^0.10.10"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Languages"
@@ -33,5 +33,15 @@
         "path": "./syntaxes/postcss.tmLanguage"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcsole/postcss-syntax.git"
+  },
+  "author": "Ricard Solé Casas <ricardsolecasas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcsole/postcss-syntax/issues"
+  },
+  "homepage": "https://github.com/rcsole/postcss-syntax#readme"
 }

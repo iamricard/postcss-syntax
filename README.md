@@ -1,13 +1,21 @@
-# README
-## This is the README for your extension "PostCSS"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# PostCSS Syntax Highlighting
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+VSCode plugin to provide syntax highlighting for PostCSS files. It will pick up
+`.css`, `.pcss`, and `.postcss` files.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Emmet support
 
-**Enjoy!**
+Include the following in your VS Code settings:
+
+```json
+{
+  ...
+  "emmet.includeLanguages":{
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
+  ...
+}
+```
