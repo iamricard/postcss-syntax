@@ -4,36 +4,10 @@
   "description": "PostCSS language support",
   "version": "1.1.0",
   "publisher": "ricard",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
+  "engines": { "vscode": "*" },
   "categories": [
     "Languages"
   ],
-  "contributes": {
-    "languages": [
-      {
-        "id": "postcss",
-        "aliases": [
-          "PostCSS",
-          "postcss"
-        ],
-        "extensions": [
-          ".css",
-          ".pcss",
-          ".postcss"
-        ],
-        "configuration": "./postcss.configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "postcss",
-        "scopeName": "source.postcss",
-        "path": "./syntaxes/postcss.tmLanguage"
-      }
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rcsole/postcss-syntax.git"
@@ -43,5 +17,21 @@
   "bugs": {
     "url": "https://github.com/rcsole/postcss-syntax/issues"
   },
-  "homepage": "https://github.com/rcsole/postcss-syntax#readme"
+  "homepage": "https://github.com/rcsole/postcss-syntax#readme",
+  "contributes": {
+    "languages": [
+      {
+        "id": "postcss",
+        "aliases": ["PostCSS", "postcss"],
+        "extensions": [".pcss", ".postcss"],
+        "mimetypes": ["text/x-postcss", "text/postcss"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [{
+      "language": "postcss",
+      "scopeName": "source.css.postcss",
+      "path": "./syntaxes/postcss.tmLanguage.json"
+    }]
+  }
 }

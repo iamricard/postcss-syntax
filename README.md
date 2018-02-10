@@ -19,3 +19,17 @@ Include the following in your VS Code settings:
   ...
 }
 ```
+
+## Enable for `.css` files
+
+Include the following in your VS Code settings:
+
+```json
+{
+  ...
+  "files.associations": {
+    "*.css": "postcss"
+  }
+  ...
+}
+```
