@@ -1,3 +1,7 @@
+Project archived. Just use [mhmadhamster.postcss-language](https://marketplace.visualstudio.com/items?itemName=mhmadhamster.postcss-language)
+
+----
+
 # PostCSS Syntax Highlighting
 
 VSCode plugin to provide syntax highlighting for PostCSS files. It will pick up
